@@ -5,10 +5,10 @@ function Card({factionData}) {
   return (
     <div className='Card'>
         <div className='CardHeader'>
-            {factionData.Factions}
+            <span>{factionData.Factions}</span>
         </div>
         <div className='CardBody'>
-            {factionData.Personnage}
+            <span>{factionData.Personnage}</span>
         </div>
         <div className='CardFooter'>
             <img src={factionData.image} alt={factionData.Factions} />

@@ -1,12 +1,17 @@
 .Card{
     width: 200px;
     height: 300px;
-    border: solid 1px black;
+    border: outset 5px;
+    border-radius: 10% 10% 10% 10% / 0% 0% 10% 10%;
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+    position: relative;
+
+    background: linear-gradient(45deg, rgb(90, 60, 40), rgb(130, 100, 60), rgb(90, 60, 40));
 
     div{
         width: 100%;
@@ -16,12 +21,58 @@
     }
     .CardHeader{
         height: 15%;
+        padding: 0.5em;
+
+        background-color: rgb(170, 160, 150);
+        border-radius: 15px;
+        border: outset;
+
+        position: absolute;
+        top: -10px;
+        z-index: 5;
+
+        span{
+            width: 98%;
+            height: 98%;
+            background-color: rgba(211, 211, 211, 0.5);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            border: inset;
+            border-radius: 15px;
+        }
     }
     .CardBody{
         height: 15%;
+        width: 75%;
+
+        background-color: rgb(170, 160, 150);
+        border: outset;
+
+        position: absolute;
+        top: 55px;
+        z-index: 4;
+
+        span{
+            width: 99%;
+            height: 99%;
+            background-color: rgba(211, 211, 211, 0.5);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            border: inset;
+        }
     }
     .CardFooter{
         height: 65%;
+        position: absolute;
+        bottom: 0;
 
         img{
             width: 95%;
