@@ -19,7 +19,7 @@ Bien que l'objectif principal soit l'apprentissage, j'ai également apporté un 
 - JavaScript (ES6+)
 
 ## Déploiement
-Le projet sera déployé sur GitHub Pages ou une autre plateforme de déploiement adaptée aux applications React. Le lien sera ajouté ici une fois le déploiement effectué.
+Le projet est déployé sur Vercel [Ici](https://wh-random-react.vercel.app/)
 
 ## Ancienne version
 Si vous souhaitez voir la version originale du projet en HTML, CSS et JavaScript pur, elle est disponible ici : [WH_Random (version originale)](https://github.com/AlexandreTheDwarf/WH_Random).
