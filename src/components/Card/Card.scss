@@ -1,0 +1,30 @@
+.Card{
+    width: 200px;
+    height: 300px;
+    border: solid 1px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .CardHeader{
+        height: 15%;
+    }
+    .CardBody{
+        height: 15%;
+    }
+    .CardFooter{
+        height: 65%;
+
+        img{
+            width: 95%;
+        }
+    }
+}
