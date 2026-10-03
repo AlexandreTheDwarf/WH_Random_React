@@ -258,6 +258,12 @@
         "Personnage": "Eltharion"     
     },
     {
+        "image": "/img/High Elves/High_Elf_Sea_Patrol.webp",
+        "races": "High Elves",
+        "Factions": "High Elf Sea Patrol",
+        "Personnage": "Sea Lord Aislinn"     
+    },
+    {
         "image": "/img/khorne/Exiles_of_Khorne.webp",
         "races": "Khorne",
         "Factions": "Exiles of Khorne",
@@ -360,6 +366,12 @@
         "Personnage": "Wulfrik the Wanderer"     
     },
     {
+        "image": "/img/norsca/Dolgan.webp",
+        "races": "Norsca",
+        "Factions": "Dolgan",
+        "Personnage": "Sayl the Faithless"     
+    },
+    {
         "image": "/img/nurgle/Poxmakers_of_Nurgle.webp",
         "races": "Nurgle",
         "Factions": "Poxmakers of Nurgle",
@@ -436,6 +448,18 @@
         "races": "Slaanesh",
         "Factions": "Seducers of Slaanesh",
         "Personnage": "N'Kari"      
+    },
+    {
+        "image": "/img/Slaanesh/The_Tormentors.webp",
+        "races": "Slaanesh",
+        "Factions": "The Tormentors",
+        "Personnage": "Dechala, the Denied One"      
+    },
+    {
+        "image": "/img/Slaanesh/The_Accursed_Troupe.webp",
+        "races": "Slaanesh",
+        "Factions": "The Accursed Troupe",
+        "Personnage": "The Masque of Slaanesh"      
     },
     {
         "image": "/img/Tomb Kings/Court_of_Lybaras.webp",
